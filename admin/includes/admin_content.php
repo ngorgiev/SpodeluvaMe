@@ -8,28 +8,25 @@
                 <small>Subheading</small>
             </h1>
             <?php
+
+            //TEST CREATE USER
 //            $user = new User();
-//            $user->username = "ExampleUsername2";
-//            $user->password = "ExamplePassword2";
-//            $user->first_name = "ExampleFirstName2";
-//            $user->last_name = "ExampleLastName2";
+//            $user->username = "ExampleUsernameNikola";
+//            $user->password = "ExamplePasswordNikola";
+//            $user->first_name = "ExampleFirstNameNikola";
+//            $user->last_name = "ExampleLastNameNikola";
 //
 //            $user->create();
 
-//            $user = User::find_by_id(1);
-//            echo $user->username;
+            //TEST UPDATE USER
+//            $user = User::find_by_id(12);
+//            $user->delete();
 
-//            $photos = Photo::find_all();
-//
-//            foreach($photos as $photo)
-//            {
-//                echo $photo->title;
-//            }
+            //TEST FIND PHOTO
+            $photo = Photo::find_by_id(2);
+            $photo->delete();
 
-//            $photo = Photo::find_by_id(3);
-//            $photo->delete();
-                echo INCLUDES_PATH;
-//            $photo->create();
+
             ?>
             <ol class="breadcrumb">
                 <li>
