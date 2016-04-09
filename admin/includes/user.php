@@ -78,6 +78,11 @@ class User
 
     }
 
+    public function save()
+    {
+        return isset($this->id) ? $this->update() : $this->create();
+    }
+
     //CRUD Methods
     public function create()
     {

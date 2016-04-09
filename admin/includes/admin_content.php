@@ -16,9 +16,9 @@
 //
 //            $user->create();
 
-            $user = User::find_user_by_id(4);
-           // $user->last_name = "Williams";
-            $user->delete();
+            $user = User::find_user_by_id(3);
+            $user->last_name = "Nikolov";
+            $user->save();
             ?>
             <ol class="breadcrumb">
                 <li>

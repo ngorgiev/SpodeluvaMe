@@ -36,10 +36,10 @@
         <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-12.5">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="e#249#282#0#PHP" expanded="true" />
-                <marker date="1460199823000" expanded="true" signature="716:746" placeholder="..." />
+                <marker date="1460200272000" expanded="true" signature="711:741" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -68,18 +68,18 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8559671">
-              <caret line="129" column="81" selection-start-line="129" selection-start-column="81" selection-end-line="129" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.5473251">
+              <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
               <folding>
-                <marker date="1460199876000" expanded="true" signature="215:234" placeholder="SELECT * FRO... users" />
-                <marker date="1460199876000" expanded="true" signature="381:412" placeholder="SELECT * FRO... users" />
-                <marker date="1460199876000" expanded="true" signature="381:413" placeholder="SELECT * FRO... users" />
-                <marker date="1460199876000" expanded="true" signature="381:428" placeholder="SELECT * FRO... users" />
-                <marker date="1460199876000" expanded="true" signature="1245:1270" placeholder="SELECT * FRO... users" />
-                <marker date="1460199876000" expanded="true" signature="2325:2386" placeholder="INSERT INTO users... " />
-                <marker date="1460199876000" expanded="true" signature="2970:2986" placeholder="UPDATE users... " />
-                <marker date="1460199876000" expanded="true" signature="2977:2983" placeholder="INSERT INTO users... " />
-                <marker date="1460199876000" expanded="true" signature="3596:3613" placeholder="DELETE FROM " />
+                <marker date="1460200220000" expanded="true" signature="215:234" placeholder="SELECT * FRO... users" />
+                <marker date="1460200220000" expanded="true" signature="381:412" placeholder="SELECT * FRO... users" />
+                <marker date="1460200220000" expanded="true" signature="381:413" placeholder="SELECT * FRO... users" />
+                <marker date="1460200220000" expanded="true" signature="381:428" placeholder="SELECT * FRO... users" />
+                <marker date="1460200220000" expanded="true" signature="1245:1270" placeholder="SELECT * FRO... users" />
+                <marker date="1460200220000" expanded="true" signature="2434:2495" placeholder="INSERT INTO users... " />
+                <marker date="1460200220000" expanded="true" signature="3079:3095" placeholder="UPDATE users... " />
+                <marker date="1460200220000" expanded="true" signature="3086:3092" placeholder="INSERT INTO users... " />
+                <marker date="1460200220000" expanded="true" signature="3705:3722" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -150,8 +150,8 @@
         <option value="$PROJECT_DIR$/admin/includes/session.php" />
         <option value="$PROJECT_DIR$/admin/login.php" />
         <option value="$PROJECT_DIR$/admin/includes/database.php" />
-        <option value="$PROJECT_DIR$/admin/includes/admin_content.php" />
         <option value="$PROJECT_DIR$/admin/includes/user.php" />
+        <option value="$PROJECT_DIR$/admin/includes/admin_content.php" />
       </list>
     </option>
   </component>
@@ -457,28 +457,28 @@
     <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.5">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="e#249#282#0#PHP" expanded="true" />
-            <marker date="1460199823000" expanded="true" signature="716:746" placeholder="..." />
+            <marker date="1460200272000" expanded="true" signature="711:741" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8559671">
-          <caret line="129" column="81" selection-start-line="129" selection-start-column="81" selection-end-line="129" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.5473251">
+          <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
           <folding>
-            <marker date="1460199876000" expanded="true" signature="215:234" placeholder="SELECT * FRO... users" />
-            <marker date="1460199876000" expanded="true" signature="381:412" placeholder="SELECT * FRO... users" />
-            <marker date="1460199876000" expanded="true" signature="381:413" placeholder="SELECT * FRO... users" />
-            <marker date="1460199876000" expanded="true" signature="381:428" placeholder="SELECT * FRO... users" />
-            <marker date="1460199876000" expanded="true" signature="1245:1270" placeholder="SELECT * FRO... users" />
-            <marker date="1460199876000" expanded="true" signature="2325:2386" placeholder="INSERT INTO users... " />
-            <marker date="1460199876000" expanded="true" signature="2970:2986" placeholder="UPDATE users... " />
-            <marker date="1460199876000" expanded="true" signature="2977:2983" placeholder="INSERT INTO users... " />
-            <marker date="1460199876000" expanded="true" signature="3596:3613" placeholder="DELETE FROM " />
+            <marker date="1460200220000" expanded="true" signature="215:234" placeholder="SELECT * FRO... users" />
+            <marker date="1460200220000" expanded="true" signature="381:412" placeholder="SELECT * FRO... users" />
+            <marker date="1460200220000" expanded="true" signature="381:413" placeholder="SELECT * FRO... users" />
+            <marker date="1460200220000" expanded="true" signature="381:428" placeholder="SELECT * FRO... users" />
+            <marker date="1460200220000" expanded="true" signature="1245:1270" placeholder="SELECT * FRO... users" />
+            <marker date="1460200220000" expanded="true" signature="2434:2495" placeholder="INSERT INTO users... " />
+            <marker date="1460200220000" expanded="true" signature="3079:3095" placeholder="UPDATE users... " />
+            <marker date="1460200220000" expanded="true" signature="3086:3092" placeholder="INSERT INTO users... " />
+            <marker date="1460200220000" expanded="true" signature="3705:3722" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
