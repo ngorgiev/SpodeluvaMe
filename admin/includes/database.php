@@ -30,14 +30,6 @@ class Database
         return $result;
     }
 
-    private function confirm_query($result)
-    {
-        if(!$result)
-        {
-            die("Query Failed" . $this->connection->error);
-        }
-    }
-
     public function escape_string($string)
     {
         $escaped_string = $this->connection->real_escape_string($string);
@@ -46,7 +38,16 @@ class Database
 
     public function the_insert_id()
     {
-        return $this->connection->insert_id;
+        //return $this->connection->insert_id;
+        return mysqli_insert_id($this->connection);
+    }
+
+    private function confirm_query($result)
+    {
+        if(!$result)
+        {
+            die("Query Failed" . $this->connection->error);
+        }
     }
 
 }
