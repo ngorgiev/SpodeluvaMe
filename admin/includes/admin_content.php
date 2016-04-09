@@ -8,17 +8,16 @@
                 <small>Subheading</small>
             </h1>
             <?php
-//            $user = new User();
-//            $user->username = "ExampleUsername1";
-//            $user->password = "ExamplePassword1";
-//            $user->first_name = "ExampleFirstName1";
-//            $user->last_name = "ExampleLastName1";
+            $user = new User();
+            $user->username = "ExampleUsername2";
+            $user->password = "ExamplePassword2";
+            $user->first_name = "ExampleFirstName2";
+            $user->last_name = "ExampleLastName2";
 
-//            $user->create();
+            $user->create();
 
-            $user = User::find_user_by_id(10);
-//            $user->last_name = "Nikolovski223";
-            $user->delete();
+//            $user = User::find_by_id(1);
+//            echo $user->username;
             ?>
             <ol class="breadcrumb">
                 <li>
