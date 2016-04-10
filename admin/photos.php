@@ -2,7 +2,24 @@
 <?php if(!$session->is_signed_in()) {redirect("login.php");} ?>
 
 <?php
-$photos = Photo::find_all();
+//TODO ако е админ покажи опција за приказ на сите, или приказ на само мои
+if(User::check_user_role() == 'admin')
+{
+    if(isset($_GET['by_user']))
+    {
+        $photos = Photo::find_by_query("SELECT * FROM photos WHERE user_id = {$_GET['by_user']}");
+    }
+    else
+    {
+        $photos = Photo::find_all();
+    }
+
+}
+else
+{
+    $photos = Photo::find_by_query("SELECT * FROM photos WHERE user_id = {$_SESSION['user_id']}");
+}
+
 ?>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -33,6 +50,7 @@ $photos = Photo::find_all();
                                 <tr>
                                     <th>Слика</th>
                                     <th>Id</th>
+                                    <th>Автор</th>
                                     <th>Име</th>
                                     <th>Нслов</th>
                                     <th>Големина</th>
@@ -50,6 +68,17 @@ $photos = Photo::find_all();
                                         </div>
                                     </td>
                                     <td><?php echo $photo->id; ?></td>
+                                    <td>
+                                        <?php $photo_author = User::find_by_id($photo->user_id); ?>
+                                        <a href="photos.php?by_user=<?php echo $photo->user_id; ?>">
+                                            <?php echo $photo_author ? $photo_author->username : "Непознат"; ?>
+                                        </a>
+
+
+
+
+
+                                    </td>
                                     <td><?php echo $photo->filename; ?></td>
                                     <td><?php echo $photo->title; ?></td>
                                     <td><?php echo $photo->size; ?></td>

@@ -2,7 +2,7 @@
 class User extends Db_object
 {
     protected static $db_table = "users";
-    protected static $db_table_fields = array('username', 'password', 'first_name', 'last_name', 'user_image');
+    protected static $db_table_fields = array('username', 'password', 'first_name', 'last_name', 'user_image', 'role');
 
     public $id;
     public $username;
@@ -12,6 +12,7 @@ class User extends Db_object
     public $user_image;
     public $upload_directory = "images";
     public $image_placeholder = "http://placehold.it/400x400&text=image";
+    public $role;
 
     public function set_file($file)
     {
@@ -88,6 +89,15 @@ class User extends Db_object
 
         $the_result_array = self::find_by_query($sql);
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
+    }
+
+    public static function check_user_role()
+    {
+        $user = self::find_by_id($_SESSION['user_id']);
+        if($user)
+        {
+            return $user->role;
+        }
     }
 
 }//End of User Class

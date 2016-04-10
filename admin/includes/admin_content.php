@@ -7,6 +7,11 @@
                 Кориснички Панел
                 <small>Subheading</small>
             </h1>
+            <?php
+            //$user = new User();
+            $user = User::find_by_id($_SESSION['user_id']);
+            echo $user->username;
+            ?>
 
             <div class="row">
                 <div class="col-lg-3 col-md-6">

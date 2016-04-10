@@ -9,8 +9,6 @@ if(empty($_GET['id']))
 
 $photo = Photo::find_by_id($_GET['id']);
 
-
-
 if(isset($_POST['submit']))
 {
     $author = trim($_POST['author']);
@@ -44,7 +42,13 @@ $comments = Comment::find_comments_by_photo_id($photo->id);
 
                 <!-- Author -->
                 <p class="lead">
-                    објавено од: <a href="#"> Да се смени</a>
+                    објавено од:
+                    <a href="index.php?by_user=<?php echo $photo->user_id; ?>">
+                        <?php
+                        $photo_author = User::find_by_id($photo->user_id);
+                        echo $photo_author ? $photo_author->username : "Непознат";
+                        ?>
+                    </a>
                 </p>
 
                 <hr>
