@@ -15,6 +15,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/session.php" afterPath="$PROJECT_DIR$/admin/includes/session.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/side_nav.php" afterPath="$PROJECT_DIR$/admin/includes/side_nav.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/photos.php" afterPath="$PROJECT_DIR$/admin/photos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/navigation.php" afterPath="$PROJECT_DIR$/includes/navigation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo.php" afterPath="$PROJECT_DIR$/photo.php" />
@@ -39,74 +41,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin_content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.5">
-              <caret line="89" column="86" selection-start-line="89" selection-start-column="86" selection-end-line="89" selection-end-column="86" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_object.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/db_object.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875">
-              <caret line="151" column="58" selection-start-line="151" selection-start-column="58" selection-end-line="151" selection-end-column="58" />
-              <folding>
-                <marker date="1460311264000" expanded="true" signature="1410:1424" placeholder="SELECT * FRO... ${static::$db_table}" />
-                <marker date="1460311264000" expanded="true" signature="1587:1648" placeholder="SELECT * FRO... ${static::$db_table}" />
-                <marker date="1460311264000" expanded="true" signature="1638:1648" placeholder="SELECT * FRO... ${static::$db_table}" />
-                <marker date="1460311264000" expanded="true" signature="2895:2911" placeholder="INSERT INTO ${self::$db_table}... " />
-                <marker date="1460311264000" expanded="true" signature="2895:2978" placeholder="INSERT INTO ${static::$db_table}... " />
-                <marker date="1460311264000" expanded="true" signature="3908:3920" placeholder="DELETE FROM " />
-                <marker date="1460311264000" expanded="true" signature="4279:4299" placeholder="SELECT COUNT... " />
-                <marker date="1460311264000" expanded="true" signature="4279:4300" placeholder="SELECT COUNT... ${static::$}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/session.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/photos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-38.125">
-              <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="photo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+            <state vertical-scroll-proportion="-28.375">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding>
-                <marker date="1460309885000" expanded="true" signature="715:4171" placeholder="..." />
+                <marker date="1460315328000" expanded="true" signature="737:3137" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/includes/footer.php">
+        <entry file="file://$PROJECT_DIR$/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49075392">
-              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.1388889">
+              <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -115,28 +66,8 @@
       <file leaf-file-name="navigation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.25">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.25">
-              <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -178,14 +109,17 @@
         <option value="$PROJECT_DIR$/admin/photos.php" />
         <option value="$PROJECT_DIR$/admin/delete_comment_photo.php" />
         <option value="$PROJECT_DIR$/admin/comment_photo.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/photo.php" />
-        <option value="$PROJECT_DIR$/includes/navigation.php" />
         <option value="$PROJECT_DIR$/admin/includes/header.php" />
         <option value="$PROJECT_DIR$/admin/includes/session.php" />
         <option value="$PROJECT_DIR$/admin/includes/db_object.php" />
         <option value="$PROJECT_DIR$/admin/includes/admin_content.php" />
         <option value="$PROJECT_DIR$/admin/includes/footer.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/photo.php" />
+        <option value="$PROJECT_DIR$/includes/navigation.php" />
+        <option value="$PROJECT_DIR$/includes/footer.php" />
       </list>
     </option>
   </component>
@@ -256,43 +190,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpodeluvaMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpodeluvaMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpodeluvaMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpodeluvaMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,7 +289,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -697,41 +595,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49075392">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/photos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-38.125">
+        <state vertical-scroll-proportion="1.2103175">
           <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.25">
-          <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
+        <state vertical-scroll-proportion="0.1984127">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding />
         </state>
@@ -739,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/db_object.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
+        <state vertical-scroll-proportion="0.37698412">
           <caret line="151" column="58" selection-start-line="151" selection-start-column="58" selection-end-line="151" selection-end-column="58" />
           <folding>
             <marker date="1460311264000" expanded="true" signature="1410:1424" placeholder="SELECT * FRO... ${static::$db_table}" />
@@ -759,33 +641,68 @@
         <state vertical-scroll-proportion="-17.5">
           <caret line="89" column="86" selection-start-line="89" selection-start-column="86" selection-end-line="89" selection-end-column="86" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-21.25">
+          <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05952381">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1984127">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.515873">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <marker date="1460314227000" expanded="true" signature="725:933" placeholder="..." />
+            <marker date="1460314227000" expanded="true" signature="1001:1120" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/photo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+        <state vertical-scroll-proportion="-28.375">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
-            <marker date="1460309885000" expanded="true" signature="715:4171" placeholder="..." />
+            <marker date="1460315328000" expanded="true" signature="737:3137" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/footer.php">
+    <entry file="file://$PROJECT_DIR$/includes/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49075392">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1388889">
+          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
           <folding />
         </state>
       </provider>
