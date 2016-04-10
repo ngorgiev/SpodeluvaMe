@@ -4,38 +4,111 @@
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">
-                Профил
+                Кориснички Панел
                 <small>Subheading</small>
             </h1>
-            <?php
 
-            //TEST CREATE USER
-//            $user = new User();
-//            $user->username = "ExampleUsernameNikola";
-//            $user->password = "ExamplePasswordNikola";
-//            $user->first_name = "ExampleFirstNameNikola";
-//            $user->last_name = "ExampleLastNameNikola";
-//
-//            $user->create();
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-users fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge"><?php echo $session->count;?></div>
+                                    <div>Нови прегледи</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">Повеќе Детали</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-            //TEST UPDATE USER
-//            $user = User::find_by_id(12);
-//            $user->delete();
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-photo fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge"><?php echo Photo::count_all(); ?></div>
+                                    <div>Слики</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">Вкупно Слики</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-            //TEST FIND PHOTO
-            $photo = Photo::find_by_id(2);
-            $photo->delete();
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-user fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge"><?php echo User::count_all(); ?></div>
+                                    <div>Корисници</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">Вкупно Корисници</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-support fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge"><?php echo Comment::count_all();?></div>
+                                    <div>Коментари</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">Вкупно Коментари</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
 
-            ?>
-            <ol class="breadcrumb">
-                <li>
-                    <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
-                </li>
-                <li class="active">
-                    <i class="fa fa-file"></i> Blank Page
-                </li>
-            </ol>
+            </div> <!--First Row-->
+
+            <div class="row">
+                <div id="piechart" style="width: 900px; height: 500px;"></div>
+            </div>
+
         </div>
     </div>
     <!-- /.row -->
