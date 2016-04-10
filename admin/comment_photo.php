@@ -6,7 +6,32 @@ if(empty($_GET['id']))
 {
     redirect("photos.php");
 }
-$comments = Comment::find_comments_by_photo_id($_GET['id']);
+$comments_for_user = array();
+$all_user_photo_ids = array();
+
+$user_photos = Photo::find_by_query("SELECT * FROM photos WHERE user_id = {$_SESSION['user_id']}");
+foreach($user_photos as $user_photo)
+{
+    $all_user_photo_ids[] = $user_photo->id;
+}
+
+foreach($all_user_photo_ids as $photo_id)
+{
+    if($photo_id == $_GET['id'])
+    {
+        $comments = Comment::find_comments_by_photo_id($_GET['id']);
+    }
+}
+
+if(!$comments)
+{
+    redirect("photos.php");
+}
+
+
+
+
+
 ?>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">

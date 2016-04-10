@@ -4,6 +4,8 @@
     <list default="true" id="1c003fc2-bb64-45a8-9cb4-5aef4a999023" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/images-50.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/comment_photo.php" afterPath="$PROJECT_DIR$/admin/comment_photo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/comments.php" afterPath="$PROJECT_DIR$/admin/comments.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/delete_comment.php" afterPath="$PROJECT_DIR$/admin/delete_comment.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/delete_comment_photo.php" afterPath="$PROJECT_DIR$/admin/delete_comment_photo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/delete_photo.php" afterPath="$PROJECT_DIR$/admin/delete_photo.php" />
@@ -45,8 +47,8 @@
       <file leaf-file-name="db_object.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/db_object.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-49.375">
-              <caret line="99" column="61" selection-start-line="99" selection-start-column="61" selection-end-line="99" selection-end-column="61" />
+            <state vertical-scroll-proportion="-16.875">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
               <folding>
                 <marker date="1460311264000" expanded="true" signature="1410:1424" placeholder="SELECT * FRO... ${static::$db_table}" />
                 <marker date="1460311264000" expanded="true" signature="1587:1648" placeholder="SELECT * FRO... ${static::$db_table}" />
@@ -61,25 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-50.0">
-              <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
-              <folding>
-                <marker date="1460319010000" expanded="true" signature="2390:2403" placeholder="SELECT * FRO... " />
-                <marker date="1460319010000" expanded="true" signature="2390:2404" placeholder="SELECT * FRO... ${self::$db_table}" />
-                <marker date="1460319010000" expanded="true" signature="2390:2433" placeholder="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="photos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/photos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="42" />
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="9" column="98" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="98" />
               <folding>
                 <marker date="1460324261000" expanded="true" signature="311:348" placeholder="SELECT * FRO... photos" />
                 <marker date="1460324261000" expanded="true" signature="480:517" placeholder="SELECT * FRO... photos" />
@@ -89,42 +77,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/edit_user.php">
+      <file leaf-file-name="comments.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/comments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.625">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-              <folding />
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <marker date="1460327702000" expanded="true" signature="265:302" placeholder="SELECT * FRO... photos" />
+                <marker date="1460327702000" expanded="true" signature="567:607" placeholder="SELECT * FRO... comments" />
+                <marker date="1460327702000" expanded="true" signature="1649:1894" placeholder="..." />
+                <marker date="1460327702000" expanded="true" signature="1682:1857" placeholder="..." />
+                <marker date="1460327702000" expanded="true" signature="1930:2404" placeholder="..." />
+                <marker date="1460327702000" expanded="true" signature="2037:2404" placeholder="..." />
+                <marker date="1460327702000" expanded="true" signature="2151:2404" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete_user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/delete_user.php">
+      <file leaf-file-name="comment_photo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/comment_photo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_comment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/delete_comment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_comment_photo.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/delete_comment_photo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29761904">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.49603173">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <marker date="1460328096000" expanded="true" signature="266:303" placeholder="SELECT * FRO... photos" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,8 +140,6 @@
         <option value="$PROJECT_DIR$/admin/includes/side_nav.php" />
         <option value="$PROJECT_DIR$/admin/includes/comment.php" />
         <option value="$PROJECT_DIR$/admin/includes/init.php" />
-        <option value="$PROJECT_DIR$/admin/comments.php" />
-        <option value="$PROJECT_DIR$/admin/comment_photo.php" />
         <option value="$PROJECT_DIR$/admin/includes/header.php" />
         <option value="$PROJECT_DIR$/admin/includes/session.php" />
         <option value="$PROJECT_DIR$/admin/includes/db_object.php" />
@@ -185,8 +161,10 @@
         <option value="$PROJECT_DIR$/admin/delete_user.php" />
         <option value="$PROJECT_DIR$/admin/photos.php" />
         <option value="$PROJECT_DIR$/admin/delete_photo.php" />
-        <option value="$PROJECT_DIR$/admin/delete_comment.php" />
         <option value="$PROJECT_DIR$/admin/delete_comment_photo.php" />
+        <option value="$PROJECT_DIR$/admin/delete_comment.php" />
+        <option value="$PROJECT_DIR$/admin/comments.php" />
+        <option value="$PROJECT_DIR$/admin/comment_photo.php" />
       </list>
     </option>
   </component>
@@ -589,22 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/comments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.25">
-          <caret line="42" column="94" selection-start-line="42" selection-start-column="94" selection-end-line="42" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/comment_photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.75">
-          <caret line="46" column="96" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49075392">
@@ -740,23 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/db_object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-49.375">
-          <caret line="99" column="61" selection-start-line="99" selection-start-column="61" selection-end-line="99" selection-end-column="61" />
-          <folding>
-            <marker date="1460311264000" expanded="true" signature="1410:1424" placeholder="SELECT * FRO... ${static::$db_table}" />
-            <marker date="1460311264000" expanded="true" signature="1587:1648" placeholder="SELECT * FRO... ${static::$db_table}" />
-            <marker date="1460311264000" expanded="true" signature="1638:1648" placeholder="SELECT * FRO... ${static::$db_table}" />
-            <marker date="1460311264000" expanded="true" signature="2895:2911" placeholder="INSERT INTO ${self::$db_table}... " />
-            <marker date="1460311264000" expanded="true" signature="2895:2978" placeholder="INSERT INTO ${static::$db_table}... " />
-            <marker date="1460311264000" expanded="true" signature="3908:3920" placeholder="DELETE FROM " />
-            <marker date="1460311264000" expanded="true" signature="4279:4299" placeholder="SELECT COUNT... " />
-            <marker date="1460311264000" expanded="true" signature="4279:4300" placeholder="SELECT COUNT... ${static::$}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-50.0">
@@ -765,18 +710,6 @@
             <marker date="1460319010000" expanded="true" signature="2390:2403" placeholder="SELECT * FRO... " />
             <marker date="1460319010000" expanded="true" signature="2390:2404" placeholder="SELECT * FRO... ${self::$db_table}" />
             <marker date="1460319010000" expanded="true" signature="2390:2433" placeholder="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/photos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <marker date="1460324261000" expanded="true" signature="311:348" placeholder="SELECT * FRO... photos" />
-            <marker date="1460324261000" expanded="true" signature="480:517" placeholder="SELECT * FRO... photos" />
-            <marker date="1460324261000" expanded="true" signature="3558:3607" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -799,9 +732,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/delete_comment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/photos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="98" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="98" />
+          <folding>
+            <marker date="1460324261000" expanded="true" signature="311:348" placeholder="SELECT * FRO... photos" />
+            <marker date="1460324261000" expanded="true" signature="480:517" placeholder="SELECT * FRO... photos" />
+            <marker date="1460324261000" expanded="true" signature="3558:3607" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/db_object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <marker date="1460311264000" expanded="true" signature="1410:1424" placeholder="SELECT * FRO... ${static::$db_table}" />
+            <marker date="1460311264000" expanded="true" signature="1587:1648" placeholder="SELECT * FRO... ${static::$db_table}" />
+            <marker date="1460311264000" expanded="true" signature="1638:1648" placeholder="SELECT * FRO... ${static::$db_table}" />
+            <marker date="1460311264000" expanded="true" signature="2895:2911" placeholder="INSERT INTO ${self::$db_table}... " />
+            <marker date="1460311264000" expanded="true" signature="2895:2978" placeholder="INSERT INTO ${static::$db_table}... " />
+            <marker date="1460311264000" expanded="true" signature="3908:3920" placeholder="DELETE FROM " />
+            <marker date="1460311264000" expanded="true" signature="4279:4299" placeholder="SELECT COUNT... " />
+            <marker date="1460311264000" expanded="true" signature="4279:4300" placeholder="SELECT COUNT... ${static::$}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -810,6 +772,32 @@
         <state vertical-scroll-proportion="0.29761904">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1460327702000" expanded="true" signature="265:302" placeholder="SELECT * FRO... photos" />
+            <marker date="1460327702000" expanded="true" signature="567:607" placeholder="SELECT * FRO... comments" />
+            <marker date="1460327702000" expanded="true" signature="1649:1894" placeholder="..." />
+            <marker date="1460327702000" expanded="true" signature="1682:1857" placeholder="..." />
+            <marker date="1460327702000" expanded="true" signature="1930:2404" placeholder="..." />
+            <marker date="1460327702000" expanded="true" signature="2037:2404" placeholder="..." />
+            <marker date="1460327702000" expanded="true" signature="2151:2404" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/comment_photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49603173">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <marker date="1460328096000" expanded="true" signature="266:303" placeholder="SELECT * FRO... photos" />
+          </folding>
         </state>
       </provider>
     </entry>

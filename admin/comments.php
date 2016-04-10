@@ -2,7 +2,28 @@
 <?php if(!$session->is_signed_in()) {redirect("login.php");} ?>
 
 <?php
-$comments = Comment::find_all();
+$comments_for_user = array();
+if(!strpos(User::check_user_role(),'admin'))
+{
+    $all_user_photo_ids = array();
+    $user_photos = Photo::find_by_query("SELECT * FROM photos WHERE user_id = {$_SESSION['user_id']}");
+    foreach($user_photos as $user_photo)
+    {
+        $all_user_photo_ids[] = $user_photo->id;
+    }
+
+    foreach($all_user_photo_ids as $photo_id)
+    {
+        $comments_for_user = array_merge($comments_for_user,Comment::find_by_query("SELECT * FROM comments WHERE photo_id = {$photo_id}"));
+    }
+   $comments = $comments_for_user;
+
+}
+else
+{
+    $comments = Comment::find_all();
+}
+//$comments = Comment::find_all();
 ?>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -39,9 +60,14 @@ $comments = Comment::find_all();
                                 <tr>
                                     <td><?php echo $comment->id; ?></td>
                                     <td><?php echo $comment->author; ?>
-                                        <div class="action_links">
-                                            <a class="delete_comment" href="delete_comment.php?id=<?php echo $comment->id; ?>">Избриши</a>
-                                        </div>
+                                        <?php
+                                        if(strpos(User::check_user_role(),'admin'))
+                                        {
+                                            echo " <div class=action_links>";
+                                            echo "<a class=delete_comment href=delete_comment.php?id={$comment->id}>Избриши</a>";
+                                            echo "</div>";
+                                        }
+                                        ?>
                                     </td>
                                     <td><?php echo $comment->body; ?></td>
                                 </tr>

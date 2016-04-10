@@ -14,7 +14,7 @@ if($comment)
     {
         $comment->delete();
     }
-
+    echo "NE E ADMIN";
     redirect("comments.php");
 }
 else
