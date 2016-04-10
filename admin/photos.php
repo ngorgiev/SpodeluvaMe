@@ -3,7 +3,7 @@
 
 <?php
 //TODO ако е админ покажи опција за приказ на сите, или приказ на само мои
-if(User::check_user_role() == 'admin')
+if(strpos(User::check_user_role(),'admin'))
 {
     if(isset($_GET['by_user']))
     {

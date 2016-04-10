@@ -10,7 +10,11 @@ if(empty($_GET['id']))
 $comment = Comment::find_by_id($_GET['id']);
 if($comment)
 {
-    $comment->delete();
+    if(strpos(User::check_user_role(),'admin'))
+    {
+        $comment->delete();
+    }
+
     redirect("comments.php");
 }
 else

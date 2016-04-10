@@ -10,8 +10,20 @@ if(empty($_GET['id']))
 $user = User::find_by_id($_GET['id']);
 if($user)
 {
-    $user->delete();
-    redirect("users.php");
+    if($user->role != 'superadmin')
+    {
+        if(User::check_user_role() != 'regular')
+        {
+            $user->delete();
+        }
+        redirect("users.php");
+    }
+    else
+    {
+        echo "Корисникот {$user->username} неможе да се избрише!";
+        echo "<a href='users.php'> Врати се назад.</a>";
+    }
+
 }
 else
 {
