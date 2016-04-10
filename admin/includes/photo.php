@@ -2,12 +2,14 @@
 class Photo extends Db_object
 {
     protected static $db_table = "photos";
-    protected static $db_table_fields = array('id', 'title', 'description', 'filename', 'type', 'size');
+    protected static $db_table_fields = array('id', 'title', 'caption', 'description', 'filename', 'alternate_text', 'type', 'size');
 
     public $id;
     public $title;
+    public $caption;
     public $description;
     public $filename;
+    public $alternate_text;
     public $type;
     public $size;
 
@@ -24,27 +26,6 @@ class Photo extends Db_object
         UPLOAD_ERR_CANT_WRITE   => "Failed to write file to disk.",
         UPLOAD_ERR_EXTENSION    => "A PHP extension stopped the file upload."
     );
-
-    public function set_file($file)
-    {
-        if(empty($file) || !$file || !is_array($file))
-        {
-            $this->errors[] = "Не прикачивте фајл!";
-            return false;
-        }
-        elseif($file['error'] != 0)
-        {
-            $this->errors[] = $this->upload_errors_array[$file['error']];
-            return false;
-        }
-        else
-        {
-            $this->filename = basename($file['name']);
-            $this->tmp_path = $file['tmp_name'];
-            $this->type = $file['type'];
-            $this->size = $file['size'];
-        }
-    }
 
     public function picture_path()
     {

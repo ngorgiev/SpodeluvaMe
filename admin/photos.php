@@ -21,9 +21,12 @@ $photos = Photo::find_all();
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                        Слики
+                        Менаџирање на Слики
                         <small>Subheading</small>
                     </h1>
+
+                    <a href="upload.php" class="btn btn-primary">Додади Нова Слика</a>
+
                     <div class="col-md-12">
                         <table class="table table-hover">
                             <thead>
@@ -38,11 +41,11 @@ $photos = Photo::find_all();
                             <tbody>
                             <?php foreach($photos as $photo) : ?>
                                 <tr>
-                                    <td><img src="<?php echo $photo->picture_path(); ?>" alt="">
+                                    <td><img class="admin-photo-thumbnail" src="<?php echo $photo->picture_path(); ?>" alt="">
                                         <div class="pictures_links">
-                                            <a class="delete_photo" href="delete_photo.php?id=<?php echo $photo->id; ?>">Delete</a>
-                                            <a href="edit_photo.php?id=<?php echo $photo->id; ?>">Edit</a>
-                                            <a href="../photo.php?id=<?php echo $photo->id; ?>">View</a>
+                                            <a class="delete_photo" href="delete_photo.php?id=<?php echo $photo->id; ?>">Избриши</a>
+                                            <a href="edit_photo.php?id=<?php echo $photo->id; ?>">Измени</a>
+                                            <a href="../photo.php?id=<?php echo $photo->id; ?>">Прегледај</a>
                                         </div>
                                     </td>
                                     <td><?php echo $photo->id; ?></td>
