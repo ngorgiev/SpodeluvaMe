@@ -36,13 +36,14 @@ $photos = Photo::find_all();
                                     <th>Име</th>
                                     <th>Нслов</th>
                                     <th>Големина</th>
+                                    <th>Коментари</th>
                                 </tr>
                             </thead>
                             <tbody>
                             <?php foreach($photos as $photo) : ?>
                                 <tr>
                                     <td><img class="admin-photo-thumbnail" src="<?php echo $photo->picture_path(); ?>" alt="">
-                                        <div class="pictures_links">
+                                        <div class="action_links">
                                             <a class="delete_photo" href="delete_photo.php?id=<?php echo $photo->id; ?>">Избриши</a>
                                             <a href="edit_photo.php?id=<?php echo $photo->id; ?>">Измени</a>
                                             <a href="../photo.php?id=<?php echo $photo->id; ?>">Прегледај</a>
@@ -52,6 +53,14 @@ $photos = Photo::find_all();
                                     <td><?php echo $photo->filename; ?></td>
                                     <td><?php echo $photo->title; ?></td>
                                     <td><?php echo $photo->size; ?></td>
+                                    <td>
+                                        <a href="comment_photo.php?id=<?php echo $photo->id?>">
+                                        <?php
+                                        $comments = Comment::find_comments_by_photo_id($photo->id);
+                                        echo count($comments);
+                                        ?>
+                                        </a>
+                                    </td>
                                 </tr>
                             <?php endforeach; ?>
                             </tbody>
