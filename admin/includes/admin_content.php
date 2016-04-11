@@ -5,12 +5,10 @@
         <div class="col-lg-12">
             <h1 class="page-header">
                 Кориснички Панел
-                <small>Subheading</small>
             </h1>
             <?php
             //$user = new User();
-            $user = User::find_by_id($_SESSION['user_id']);
-            echo $user->username;
+//            $user = User::find_by_id($_SESSION['user_id']);
             ?>
 
             <div class="row">
@@ -50,7 +48,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="photos.php">
                             <div class="panel-footer">
                                 <span class="pull-left">Вкупно Слики</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -74,7 +72,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="users.php">
                             <div class="panel-footer">
                                 <span class="pull-left">Вкупно Корисници</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -97,7 +95,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="comments.php">
                             <div class="panel-footer">
                                 <span class="pull-left">Вкупно Коментари</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

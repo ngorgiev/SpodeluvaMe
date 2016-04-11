@@ -39,7 +39,6 @@ else
                 <div class="col-lg-12">
                     <h1 class="page-header">
                         Менаџирање на Слики
-                        <small>Subheading</small>
                     </h1>
 
                     <a href="upload.php" class="btn btn-primary">Додади Нова Слика</a>

@@ -43,7 +43,6 @@ else
                 <div class="col-lg-12">
                     <h1 class="page-header">
                         Менаџирање на Коментари
-                        <small>Subheading</small>
                     </h1>
 
                     <div class="col-md-12">
