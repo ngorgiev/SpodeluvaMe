@@ -5,7 +5,23 @@
 <?php
 if(empty($_GET['id']))
 {
-    redirect("users.php");
+    if(strpos(User::check_user_role(),'admin'))
+    {
+            redirect("users.php");
+    }
+    else
+    {
+        redirect("index.php");
+    }
+}
+if($_GET['id'] != $_SESSION['user_id'])
+{
+    if(!strpos(User::check_user_role(),'admin'))
+        redirect("index.php");
+}
+else
+{
+    redirect("index.php");
 }
 
 $user = User::find_by_id($_GET['id']);
