@@ -90,3 +90,7 @@
     position: fixed !important;
 
 }
+
+#login-id label {
+    color:#fff;
+}

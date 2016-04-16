@@ -54,7 +54,6 @@ if(isset($_POST['update']))
                 <div class="col-lg-12">
                     <h1 class="page-header">
                         Промена на Корисник
-                        <small>Subheading</small>
                     </h1>
 
                     <div class="col-md-6 user_image_box">

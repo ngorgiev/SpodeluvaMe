@@ -112,7 +112,7 @@ else
                                         <div class="info-box-delete pull-left">
                                             <a  href="delete_photo.php?id=<?php echo $photo->id; ?>" class="btn btn-danger btn-lg ">Избриши</a>
                                         </div>
-                                        <div class="info-box-update pull-right ">
+                                        <div class="info-box-update pull-right">
                                             <input type="submit" name="update" value="Ажурирај" class="btn btn-primary btn-lg ">
                                         </div>
                                     </div>

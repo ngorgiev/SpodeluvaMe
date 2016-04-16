@@ -17,7 +17,7 @@ $users = User::find_all();
                 </div>
 
                 <!-- Blog Categories Well -->
-        <div class="well">
+                <div class="well">
                     <h4>Корисници</h4>
                     <div class="row">
                         <div class="col-lg-6">

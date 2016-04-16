@@ -53,9 +53,12 @@ else
         </div>
 
 
-        <div class="form-group">
-            <input type="submit" name="submit" value="Submit" class="btn btn-primary">
+        <div class="info-box-delete pull-left">
+            <input type="submit" name="submit" value="Најава" class="btn btn-primary">
+        </div>
 
+        <div class="info-box-update pull-right">
+            <a href="register.php" class="btn btn-danger"> Регистрирај се </a>
         </div>
 
 
