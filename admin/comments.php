@@ -55,6 +55,7 @@ else
                                 <th>Id</th>
                                 <th>Автор</th>
                                 <th>Коментар</th>
+                                <th>Објавено</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -72,6 +73,7 @@ else
                                         ?>
                                     </td>
                                     <td><?php echo $comment->body; ?></td>
+                                    <td><?php echo $comment->date_time; ?></td>
                                 </tr>
                             <?php endforeach; ?>
                             </tbody>

@@ -114,7 +114,7 @@ else
                                     <td><?php echo $photo->filename; ?></td>
                                     <td><?php echo $photo->title; ?></td>
                                     <td><?php echo $photo->get_formated_size(); ?></td>
-                                    <td><?php echo $photo->upload_date; ?></td>
+                                    <td><?php echo date('d/m/Y H:i',strtotime($photo->upload_date)); ?></td>
                                     <td>
                                         <a href="comment_photo.php?id=<?php echo $photo->id?>">
                                         <?php
