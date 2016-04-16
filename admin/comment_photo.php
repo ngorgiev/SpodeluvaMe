@@ -8,8 +8,14 @@ if(empty($_GET['id']))
 }
 $comments_for_user = array();
 $all_user_photo_ids = array();
-
-$user_photos = Photo::find_by_query("SELECT * FROM photos WHERE user_id = {$_SESSION['user_id']}");
+if(strpos(User::check_user_role(),'admin'))
+{
+    $user_photos = Photo::find_all();
+}
+else
+{
+    $user_photos = Photo::find_by_query("SELECT * FROM photos WHERE user_id = {$_SESSION['user_id']}");
+}
 foreach($user_photos as $user_photo)
 {
     $all_user_photo_ids[] = $user_photo->id;
@@ -51,8 +57,11 @@ if(!$comments)
                 <div class="col-lg-12">
                     <h1 class="page-header">
                         Менаџирање на Коментари
-                        <small>Subheading</small>
                     </h1>
+
+                    <p class="bg-success">
+                        <?php echo $message; ?>
+                    </p>
 
                     <div class="col-md-12">
                         <table class="table table-hover">
@@ -68,9 +77,15 @@ if(!$comments)
                                 <tr>
                                     <td><?php echo $comment->id; ?></td>
                                     <td><?php echo $comment->author; ?>
-                                        <div class="action_links">
-                                            <a class="delete_comment" href="delete_comment_photo.php?id=<?php echo $comment->id; ?>">Избриши</a>
-                                        </div>
+                                        <?php
+                                        if(strpos(User::check_user_role(),'admin')) {
+                                            $delete_link = "<div class='action_links'>";
+                                            $delete_link .= "<a class='delete_comment' href='delete_comment_photo.php?id={$comment->id}'>Избриши</a></div>";
+
+                                            echo $delete_link;
+                                        }
+
+                                    ?>
                                     </td>
                                     <td><?php echo $comment->body; ?></td>
                                 </tr>

@@ -13,9 +13,9 @@ if($comment)
     if(strpos(User::check_user_role(),'admin'))
     {
         $comment->delete();
+        $session->message("Коментарот беше успешно избришан.");
     }
-    echo "NE E ADMIN";
-    redirect("comments.php");
+    //redirect("comments.php");
 }
 else
 {

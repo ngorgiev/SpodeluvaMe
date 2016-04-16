@@ -30,7 +30,7 @@ class Photo extends Db_object
 
     public function picture_path()
     {
-        return $this->upload_directory.DS.$this->filename;
+        return $this->upload_directory.DS.$this->user_id.DS.$this->filename;
     }
 
     public function save()
@@ -55,7 +55,26 @@ class Photo extends Db_object
                 return false;
             }
 
-            $target_path = SITE_ROOT . DS . 'admin' . DS . $this->upload_directory . DS . $this->filename;
+            $target_path = SITE_ROOT . DS . 'admin' . DS . $this->upload_directory . DS . $this->user_id;
+            if(!file_exists($target_path))
+            {
+                if (!mkdir($target_path, 0777, true))
+                {
+                    return false;
+                    die('Failed to create folders...');
+                }
+                else
+                {
+                    $target_path = SITE_ROOT . DS . 'admin' . DS . $this->upload_directory . DS . $this->user_id . DS . $this->filename;
+                }
+            }
+            else
+            {
+                $target_path = SITE_ROOT . DS . 'admin' . DS . $this->upload_directory . DS . $this->user_id . DS . $this->filename;
+            }
+
+
+
 
             //if file exists
             if(file_exists($target_path))

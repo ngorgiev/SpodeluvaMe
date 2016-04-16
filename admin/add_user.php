@@ -14,7 +14,13 @@ if(isset($_POST['create']))
         $user->password = $_POST['password'];
         $user->role = 'regular';
         $user->set_file($_FILES['user_image']);
+        //$user->save();
+        $user->upload_photo();
         $user->save();
+
+        $session->message("Корисникот {$user->username}  беше успешно креиран");
+
+        redirect("users.php");
     }
 }
 //

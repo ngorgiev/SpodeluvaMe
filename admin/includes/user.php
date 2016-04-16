@@ -73,7 +73,7 @@ class User extends Db_object
 
     public function image_path_and_placeholder()
     {
-        return empty($this->user_image) ? $this->image_placeholder : $this->upload_directory.DS.$this->user_image;
+        return empty($this->user_image) ? $this->image_placeholder : $this->upload_directory.DS.$this->id.DS.$this->user_image;
     }
 
     public static function verify_user($username, $password)
@@ -117,6 +117,51 @@ class User extends Db_object
         echo $this->image_path_and_placeholder();
 
     }
+
+    public function delete_photo()
+    {
+        global $database;
+        if($this->delete())
+        {
+            //$target_path = SITE_ROOT . DS . 'admin' . DS . $this->upload_directory . DS . $this->id . DS . $this->user_image;
+
+            //delete all photos related to user from database
+            $sql = "DELETE FROM photos ";
+            $sql .= "WHERE user_id=" . $database->escape_string($this->id);
+
+            $database->query($sql);
+            
+            $this->rrmdir(SITE_ROOT . DS . 'admin' . DS . $this->upload_directory . DS . $this->id);
+            return true;
+        }
+        return false;
+    }
+
+    private function rrmdir($src)
+    {
+        if(file_exists($src))
+        {
+            $dir = opendir($src);
+            while(false !== ( $file = readdir($dir)) )
+            {
+                if (( $file != '.' ) && ( $file != '..' ))
+                {
+                    $full = $src . '/' . $file;
+                    if ( is_dir($full) )
+                    {
+                        rrmdir($full);
+                    }
+                    else
+                    {
+                        unlink($full);
+                    }
+                }
+            }
+            closedir($dir);
+            rmdir($src);
+        }
+    }
+
 
 }//End of User Class
 ?>

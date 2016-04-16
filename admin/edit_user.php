@@ -22,13 +22,15 @@ if(isset($_POST['update']))
         if(empty($_FILES['user_image']))
         {
             $user->save();
+            $session->message("Корисникот {$user->username} беше успешно ажуриран");
+            redirect("users.php");
         }
         else
         {
             $user->set_file($_FILES['user_image']);
             $user->upload_photo();
             $user->save();
-
+            $session->message("Корисникот {$user->username} беше успешно ажуриран");
             redirect("users.php");
         }
     }

@@ -2,6 +2,12 @@
 <?php if(!$session->is_signed_in()) {redirect("login.php");} ?>
 
 <?php
+$user = User::find_by_id($_SESSION['user_id']);
+if($user->role != 'superadmin')
+{
+    redirect("index.php");
+}
+
 $users = User::find_all();
 ?>
     <!-- Navigation -->
@@ -23,6 +29,9 @@ $users = User::find_all();
                     <h1 class="page-header">
                         Менаџирање на Корисници
                     </h1>
+                    <p class="bg-success">
+                        <?php echo $message; ?>
+                    </p>
 
                     <a href="add_user.php" class="btn btn-primary">Додади Нов Корисник</a>
 

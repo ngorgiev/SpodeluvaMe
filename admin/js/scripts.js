@@ -20,7 +20,6 @@ $(document).ready(function()
         image_src = $(this).prop("src");
         image_href_splitted = image_src.split("/");
         image_name = image_href_splitted[image_href_splitted.length -1];
-
         photo_id = $(this).attr("data");
 
         $.ajax({

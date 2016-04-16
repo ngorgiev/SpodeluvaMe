@@ -10,11 +10,17 @@ if(empty($_GET['id']))
 $comment = Comment::find_by_id($_GET['id']);
 if($comment)
 {
-    if($comment->delete())
+    if(strpos(User::check_user_role(),'admin'))
     {
-        $comment->delete();
+        if($comment->delete())
+        {
+            $comment->delete();
+            $session->message("Коментарот беше успешно избришан.");
+        }
+        redirect("comment_photo.php?id={$comment->photo_id}");
     }
     redirect("comment_photo.php?id={$comment->photo_id}");
+
 }
 else
 {

@@ -88,4 +88,5 @@ class Session
 }
 
 $session = new Session();
+$message =  $session->message();
 ?>
