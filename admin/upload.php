@@ -3,7 +3,7 @@
 
 <?php
 $message = "";
-if(isset($_POST['submit']))
+if(isset($_FILES['file']))
 {
     $photo = new Photo();
     $photo->title = $_POST['title'];
@@ -41,24 +41,32 @@ if(isset($_POST['submit']))
                         Прикачи нова слика
                     </h1>
 
-                    <div class="col-md-6">
-                        <?php echo $message;?>
-                        <form action="" method="post" enctype="multipart/form-data">
-                            <div class="form-group">
-                                <input type="text" name="title" class="form-control">
-                            </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <?php echo $message;?>
+                            <form action="" method="post" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <input type="text" name="title" class="form-control">
+                                </div>
 
-                            <div class="form-group">
-                                <input type="file" name="file" >
-                            </div>
+                                <div class="form-group">
+                                    <input type="file" name="file" >
+                                </div>
 
-                            <input type="submit" name="submit" >
-                        </form>
+                                <input type="submit" name="submit" value="Прикачи" >
+                            </form>
+                        </div>
                     </div>
 
                 </div>
             </div>
             <!-- /.row -->
+
+            <div class="row">
+                <div class="col-lg12">
+                    <form action="upload.php" class="dropzone"></form>
+                </div>
+            </div>
 
         </div>
         <!-- /.container-fluid -->
