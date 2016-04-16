@@ -11,6 +11,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/top_nav.php" afterPath="$PROJECT_DIR$/admin/includes/top_nav.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/login.php" afterPath="$PROJECT_DIR$/admin/login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/photos.php" afterPath="$PROJECT_DIR$/admin/photos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/navigation.php" afterPath="$PROJECT_DIR$/includes/navigation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/sidebar.php" afterPath="$PROJECT_DIR$/includes/sidebar.php" />
     </list>
     <ignored path="SpodeluvaMe.iws" />
@@ -33,46 +37,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="photos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/photos.php">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.625">
-              <caret line="116" column="98" selection-start-line="116" selection-start-column="98" selection-end-line="116" selection-end-column="98" />
+            <state vertical-scroll-proportion="1.5844156">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.766233">
+              <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.625">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding>
-                <marker date="1460837061000" expanded="true" signature="311:348" placeholder="SELECT * FRO... photos" />
-                <marker date="1460837061000" expanded="true" signature="587:641" placeholder="UPDATE photo... " />
-                <marker date="1460837061000" expanded="true" signature="930:983" placeholder="UPDATE photo... " />
-                <marker date="1460837061000" expanded="true" signature="1162:1199" placeholder="SELECT * FRO... photos" />
-                <marker date="1460837061000" expanded="true" signature="1378:1432" placeholder="UPDATE photo... " />
-                <marker date="1460837061000" expanded="true" signature="1721:1774" placeholder="UPDATE photo... " />
+                <marker date="1460829486000" expanded="true" signature="222:259" placeholder="SELECT * FRO... photos" />
+                <marker date="1460829486000" expanded="true" signature="222:277" placeholder="SELECT * FRO... photos" />
+                <marker date="1460829486000" expanded="true" signature="222:303" placeholder="SELECT * FRO... photos" />
+                <marker date="1460829486000" expanded="true" signature="470:507" placeholder="SELECT * FRO... photos" />
+                <marker date="1460829486000" expanded="true" signature="470:583" placeholder="SELECT * FRO... photos" />
+                <marker date="1460829486000" expanded="true" signature="730:778" placeholder="SELECT * FRO... photos" />
+                <marker date="1460829486000" expanded="true" signature="923:971" placeholder="SELECT * FRO... photos" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comments.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/comments.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75">
-              <caret line="64" column="71" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="71" />
-              <folding>
-                <marker date="1460837311000" expanded="true" signature="265:302" placeholder="SELECT * FRO... photos" />
-                <marker date="1460837311000" expanded="true" signature="567:607" placeholder="SELECT * FRO... comments" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="top_nav.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/includes/top_nav.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4563492">
-              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-              <folding>
-                <marker date="1460838679000" expanded="true" signature="224:261" placeholder="SELECT * FRO... photos" />
-                <marker date="1460838679000" expanded="true" signature="526:566" placeholder="SELECT * FRO... comments" />
-                <marker date="1460838679000" expanded="true" signature="526:609" placeholder="SELECT * FRO... comments" />
-              </folding>
+            <state vertical-scroll-proportion="0.49603173">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,10 +111,6 @@
         <option value="$PROJECT_DIR$/admin/includes/database.php" />
         <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/admin/includes/db_object.php" />
-        <option value="$PROJECT_DIR$/includes/header.php" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/includes/navigation.php" />
-        <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/photo.php" />
         <option value="$PROJECT_DIR$/admin/delete_photo.php" />
         <option value="$PROJECT_DIR$/admin/includes/paginate.php" />
@@ -139,6 +143,10 @@
         <option value="$PROJECT_DIR$/admin/includes/comment.php" />
         <option value="$PROJECT_DIR$/admin/comments.php" />
         <option value="$PROJECT_DIR$/admin/includes/top_nav.php" />
+        <option value="$PROJECT_DIR$/includes/navigation.php" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/includes/footer.php" />
       </list>
     </option>
   </component>
@@ -209,52 +217,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SpodeluvaMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpodeluvaMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpodeluvaMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpodeluvaMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpodeluvaMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpodeluvaMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpodeluvaMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -456,30 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05952381">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03968254">
@@ -632,14 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.515873">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0">
@@ -681,22 +611,6 @@
             <marker date="1460311264000" expanded="true" signature="3908:3920" placeholder="DELETE FROM " />
             <marker date="1460311264000" expanded="true" signature="4279:4299" placeholder="SELECT COUNT... " />
             <marker date="1460311264000" expanded="true" signature="4279:4300" placeholder="SELECT COUNT... ${static::$}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49603173">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <marker date="1460829486000" expanded="true" signature="222:259" placeholder="SELECT * FRO... photos" />
-            <marker date="1460829486000" expanded="true" signature="222:277" placeholder="SELECT * FRO... photos" />
-            <marker date="1460829486000" expanded="true" signature="222:303" placeholder="SELECT * FRO... photos" />
-            <marker date="1460829486000" expanded="true" signature="470:507" placeholder="SELECT * FRO... photos" />
-            <marker date="1460829486000" expanded="true" signature="470:583" placeholder="SELECT * FRO... photos" />
-            <marker date="1460829486000" expanded="true" signature="730:778" placeholder="SELECT * FRO... photos" />
-            <marker date="1460829486000" expanded="true" signature="923:971" placeholder="SELECT * FRO... photos" />
           </folding>
         </state>
       </provider>
@@ -780,14 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/comment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
@@ -799,10 +705,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/top_nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding>
+            <marker date="1460838679000" expanded="true" signature="224:261" placeholder="SELECT * FRO... photos" />
+            <marker date="1460838679000" expanded="true" signature="526:566" placeholder="SELECT * FRO... comments" />
+            <marker date="1460838679000" expanded="true" signature="526:609" placeholder="SELECT * FRO... comments" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/comments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="64" column="71" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="71" />
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="63" />
           <folding>
             <marker date="1460837311000" expanded="true" signature="265:302" placeholder="SELECT * FRO... photos" />
             <marker date="1460837311000" expanded="true" signature="567:607" placeholder="SELECT * FRO... comments" />
@@ -810,15 +728,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/top_nav.php">
+    <entry file="file://$PROJECT_DIR$/includes/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4563492">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+        <state vertical-scroll-proportion="-20.0">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
-            <marker date="1460838679000" expanded="true" signature="224:261" placeholder="SELECT * FRO... photos" />
-            <marker date="1460838679000" expanded="true" signature="526:566" placeholder="SELECT * FRO... comments" />
-            <marker date="1460838679000" expanded="true" signature="526:609" placeholder="SELECT * FRO... comments" />
+            <marker date="1460829486000" expanded="true" signature="222:259" placeholder="SELECT * FRO... photos" />
+            <marker date="1460829486000" expanded="true" signature="222:277" placeholder="SELECT * FRO... photos" />
+            <marker date="1460829486000" expanded="true" signature="222:303" placeholder="SELECT * FRO... photos" />
+            <marker date="1460829486000" expanded="true" signature="470:507" placeholder="SELECT * FRO... photos" />
+            <marker date="1460829486000" expanded="true" signature="470:583" placeholder="SELECT * FRO... photos" />
+            <marker date="1460829486000" expanded="true" signature="730:778" placeholder="SELECT * FRO... photos" />
+            <marker date="1460829486000" expanded="true" signature="923:971" placeholder="SELECT * FRO... photos" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5844156">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.766233">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49603173">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

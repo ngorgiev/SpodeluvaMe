@@ -23,7 +23,16 @@
                         <a href="#">Контакт</a>
                     </li>
                     <li>
-                        <a href="admin">Кориснички Панел</a>
+                        <?php
+                        if(!$session->is_signed_in())
+                        {
+                            echo "<a href='admin/login.php'>Најава/Регистрација</a>";
+                        }
+                        else
+                        {
+                            echo "<a href='admin'>Кориснички Панел</a>";
+                        }
+                        ?>
                     </li>
                 </ul>
             </div>
