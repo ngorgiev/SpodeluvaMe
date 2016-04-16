@@ -32,7 +32,7 @@ else
                                        class="thumbnail">
                                         <img class="modal_thumbnails img-responsive"
                                              src="<?php echo $photo->picture_path(); ?>"
-                                             data="<!-- PHP LOOP HERE CODE HERE-->">
+                                             data="<?php echo $photo->id; ?>">
                                     </a>
                                     <div class="photo-id hidden"></div>
                                 </div>

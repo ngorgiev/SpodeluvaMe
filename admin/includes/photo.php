@@ -92,5 +92,29 @@ class Photo extends Db_object
             return false;
         }
     }
+
+    public static function display_sidebar_data($photo_id)
+    {
+        $photo = Photo::find_by_id($photo_id);
+        $photo_size = self::format_size($photo->size);
+
+        $output = "<a class='thumbnail' href='#'><img width='100' src='{$photo->picture_path()}' ></a> ";
+        $output .= "<p><b>Име:</b> {$photo->filename}</p>";
+        $output .= "<p><b>Тип:</b> {$photo->type}</p>";
+        $output .= "<p><b>Големина:</b> {$photo_size}</p>";
+
+        echo $output;
+
+
+    }
+
+    private static function format_size($size) {
+        $mod = 1024;
+        $units = explode(' ','B KB MB GB TB PB');
+        for ($i = 0; $size > $mod; $i++) {
+            $size /= $mod;
+        }
+        return round($size, 2) . ' ' . $units[$i];
+    }
 }
 ?>

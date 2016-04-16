@@ -27,8 +27,10 @@ $(document).ready(function()
             url: "includes/ajax_code.php",
             data:{photo_id:photo_id},
             type: "POST",
-            success:function(data) {
-                if(!data.error) {
+            success:function(data)
+            {
+                if(!data.error)
+                {
 
                     $("#modal_sidebar").html(data);
                 }
@@ -55,6 +57,10 @@ $(document).ready(function()
                     $(".user_image_box a img").prop('src', data);
                     // location.reload(true);
 
+                }
+                else
+                {
+                    alert(data.error.message);
                 }
             }
         });
