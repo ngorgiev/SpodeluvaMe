@@ -13,11 +13,42 @@ if(strpos(User::check_user_role(),'admin'))
     {
         $photos = Photo::find_all();
     }
-
+    if(isset($_GET['change_to_private']))
+    {
+        $photo_to_make_private = $database->escape_string($_GET['change_to_private']);
+        $query = "UPDATE photos SET photo_status = 'private' WHERE id = {$photo_to_make_private}";
+        $database->query($query);
+        $session->message("успех");
+        redirect("photos.php");
+    }
+    elseif(isset($_GET['change_to_public']))
+    {
+        $photo_to_make_public = $database->escape_string($_GET['change_to_public']);
+        $query = "UPDATE photos SET photo_status = 'public' WHERE id = {$photo_to_make_public}";
+        $database->query($query);
+        $session->message("успех");
+        redirect("photos.php");
+    }
 }
 else
 {
     $photos = Photo::find_by_query("SELECT * FROM photos WHERE user_id = {$_SESSION['user_id']}");
+    if(isset($_GET['change_to_private']))
+    {
+        $photo_to_make_private = $database->escape_string($_GET['change_to_private']);
+        $query = "UPDATE photos SET photo_status = 'private' WHERE id = {$photo_to_make_private}";
+        $database->query($query);
+        $session->message("успех");
+        redirect("photos.php");
+    }
+    elseif(isset($_GET['change_to_public']))
+    {
+        $photo_to_make_public = $database->escape_string($_GET['change_to_public']);
+        $query = "UPDATE photos SET photo_status = 'public' WHERE id = {$photo_to_make_public}";
+        $database->query($query);
+        $session->message("успех");
+        redirect("photos.php");
+    }
 }
 
 ?>
@@ -53,7 +84,9 @@ else
                                     <th>Име</th>
                                     <th>Нслов</th>
                                     <th>Големина</th>
+                                    <th>Прикачено</th>
                                     <th>Коментари</th>
+                                    <th>Видлива</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -80,13 +113,32 @@ else
                                     </td>
                                     <td><?php echo $photo->filename; ?></td>
                                     <td><?php echo $photo->title; ?></td>
-                                    <td><?php echo $photo->size; ?></td>
+                                    <td><?php echo $photo->get_formated_size(); ?></td>
+                                    <td><?php echo $photo->upload_date; ?></td>
                                     <td>
                                         <a href="comment_photo.php?id=<?php echo $photo->id?>">
                                         <?php
                                         $comments = Comment::find_comments_by_photo_id($photo->id);
                                         echo count($comments);
                                         ?>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <?php
+                                        $published = $photo->photo_status == 'public' ? true : false;
+                                        if($published)
+                                        {
+                                            $published_class = "glyphicon glyphicon-ok";
+                                            echo "<a href='photos.php?change_to_private=$photo->id'>";
+                                        }
+                                        else
+                                        {
+                                            $published_class = "glyphicon glyphicon-remove";
+                                            echo "<a href='photos.php?change_to_public=$photo->id'>";
+                                        }
+                                        ?>
+
+                                        <div class="<?php echo $published_class; ?>"></div>
                                         </a>
                                     </td>
                                 </tr>

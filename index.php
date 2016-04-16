@@ -6,19 +6,23 @@
 
     if(isset($_GET['by_user']))
     {
-        $photos = Photo::find_by_query("SELECT * FROM photos WHERE user_id = {$_GET['by_user']}");
+        $photos = Photo::find_by_query("SELECT * FROM photos WHERE user_id = {$_GET['by_user']} AND photo_status='public'");
         $items_total_count = count($photos);
         $paginate = new Paginate($page, $items_per_page, $items_total_count);
-        $photos = Photo::find_by_query("SELECT * FROM photos WHERE user_id = {$_GET['by_user']} LIMIT {$items_per_page} OFFSET {$paginate->offset()}");
+        $photos = Photo::find_by_query("SELECT * FROM photos WHERE user_id = {$_GET['by_user']} AND photo_status='public' LIMIT {$items_per_page} OFFSET {$paginate->offset()}");
 
         $photo_author = User::find_by_id($_GET['by_user']);
     }
     else
     {
-        $items_total_count = Photo::count_all();
+        $photos = Photo::find_by_query("SELECT * FROM photos WHERE photo_status='public'");
+        $items_total_count = count($photos);
         $paginate = new Paginate($page, $items_per_page, $items_total_count);
 
-        $sql = "SELECT * FROM photos ";
+
+        $sql = "SELECT * FROM photos WHERE photo_status='public'";
+
+
         $sql .= " LIMIT {$items_per_page} ";
         $sql .= " OFFSET {$paginate->offset()}";
 

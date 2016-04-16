@@ -18,6 +18,7 @@ else
             $photo->caption = $_POST['caption'];
             $photo->alternate_text = $_POST['alternate_text'];
             $photo->description = $_POST['description'];
+            $photo->photo_status = $_POST['photo_status'];
 
             $photo->save();
         }
@@ -69,6 +70,14 @@ else
                             </div>
 
                             <div class="form-group">
+                                <select name="photo_status">
+                                    <option value="">Одберете видливост</option>
+                                    <option value='public'>Јавна</option>
+                                    <option value='private'>Приватна</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
                                 <label for="caption">Опис</label>
                                 <textarea class="form-control" name="description" id="" cols="30" rows="10"><?php echo $photo->description; ?></textarea>
 
@@ -79,32 +88,32 @@ else
                         <div class="col-md-4" >
                             <div  class="photo-info-box">
                                 <div class="info-box-header">
-                                    <h4>Save <span id="toggle" class="glyphicon glyphicon-menu-up pull-right"></span></h4>
+                                    <h4>Зачувај <span id="toggle" class="glyphicon glyphicon-menu-up pull-right"></span></h4>
                                 </div>
                                 <div class="inside">
                                     <div class="box-inner">
                                         <p class="text">
-                                            <span class="glyphicon glyphicon-calendar"></span> Uploaded on: April 22, 2030 @ 5:26
+                                            <span class="glyphicon glyphicon-calendar"></span> Прикачено на:<b> <?php echo $photo->upload_date; ?></b>
                                         </p>
                                         <p class="text ">
-                                            Photo Id: <span class="data photo_id_box">34</span>
+                                            Id: <span class="data photo_id_box">34</span>
                                         </p>
                                         <p class="text">
-                                            Filename: <span class="data">image.jpg</span>
+                                            Име: <span class="data"><?php echo $photo->filename; ?></span>
                                         </p>
                                         <p class="text">
-                                            File Type: <span class="data">JPG</span>
+                                            Тип: <span class="data"><?php echo $photo->type; ?></span>
                                         </p>
                                         <p class="text">
-                                            File Size: <span class="data">3245345</span>
+                                            Големина: <span class="data"><?php echo $photo->get_formated_size(); ?></span>
                                         </p>
                                     </div>
                                     <div class="info-box-footer clearfix">
                                         <div class="info-box-delete pull-left">
-                                            <a  href="delete_photo.php?id=<?php echo $photo->id; ?>" class="btn btn-danger btn-lg ">Delete</a>
+                                            <a  href="delete_photo.php?id=<?php echo $photo->id; ?>" class="btn btn-danger btn-lg ">Избриши</a>
                                         </div>
                                         <div class="info-box-update pull-right ">
-                                            <input type="submit" name="update" value="Update" class="btn btn-primary btn-lg ">
+                                            <input type="submit" name="update" value="Ажурирај" class="btn btn-primary btn-lg ">
                                         </div>
                                     </div>
                                 </div>

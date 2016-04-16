@@ -9,6 +9,8 @@ if(isset($_FILES['file']))
     $photo->title = $_POST['title'];
     $photo->user_id = $_SESSION['user_id'];
     $photo->set_file($_FILES['file']);
+    $photo->upload_date = date('d-m-y');
+    $photo->photo_status = "public";
 
     if($photo->save())
     {
