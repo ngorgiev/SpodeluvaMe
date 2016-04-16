@@ -14,6 +14,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/photo.php" afterPath="$PROJECT_DIR$/admin/includes/photo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/photo_library_modal.php" afterPath="$PROJECT_DIR$/admin/includes/photo_library_modal.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/session.php" afterPath="$PROJECT_DIR$/admin/includes/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/side_nav.php" afterPath="$PROJECT_DIR$/admin/includes/side_nav.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/user.php" afterPath="$PROJECT_DIR$/admin/includes/user.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/js/scripts.js" afterPath="$PROJECT_DIR$/admin/js/scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/users.php" afterPath="$PROJECT_DIR$/admin/users.php" />
@@ -38,17 +39,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23868313">
-              <caret line="132" column="12" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="12" />
+            <state vertical-scroll-proportion="-4.882353">
+              <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding>
-                <marker date="1460820435000" expanded="true" signature="2403:2416" placeholder="SELECT * FRO... " />
-                <marker date="1460820435000" expanded="true" signature="2403:2417" placeholder="SELECT * FRO... ${self::$db_table}" />
-                <marker date="1460820435000" expanded="true" signature="2403:2446" placeholder="SELECT * FRO... users" />
-                <marker date="1460820435000" expanded="true" signature="3751:3769" placeholder="DELETE FROM " />
+                <marker date="1460820745000" expanded="true" signature="2403:2416" placeholder="SELECT * FRO... " />
+                <marker date="1460820745000" expanded="true" signature="2403:2417" placeholder="SELECT * FRO... ${self::$db_table}" />
+                <marker date="1460820745000" expanded="true" signature="2403:2446" placeholder="SELECT * FRO... users" />
+                <marker date="1460820745000" expanded="true" signature="3751:3769" placeholder="DELETE FROM " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="side_nav.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/includes/side_nav.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3968254">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,8 +67,8 @@
       <file leaf-file-name="comments.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/comments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.75">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="44" />
               <folding>
                 <marker date="1460819811000" expanded="true" signature="265:302" placeholder="SELECT * FRO... photos" />
                 <marker date="1460819811000" expanded="true" signature="567:607" placeholder="SELECT * FRO... comments" />
@@ -100,7 +111,6 @@
         <option value="$PROJECT_DIR$/admin/includes/database.php" />
         <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/admin/edit_photo.php" />
-        <option value="$PROJECT_DIR$/admin/includes/side_nav.php" />
         <option value="$PROJECT_DIR$/admin/includes/comment.php" />
         <option value="$PROJECT_DIR$/admin/includes/header.php" />
         <option value="$PROJECT_DIR$/admin/includes/db_object.php" />
@@ -133,6 +143,7 @@
         <option value="$PROJECT_DIR$/admin/delete_comment_photo.php" />
         <option value="$PROJECT_DIR$/admin/comment_photo.php" />
         <option value="$PROJECT_DIR$/admin/includes/user.php" />
+        <option value="$PROJECT_DIR$/admin/includes/side_nav.php" />
       </list>
     </option>
   </component>
@@ -685,14 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/side_nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/photo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5674603">
@@ -778,14 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="33" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/delete_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.25">
@@ -808,10 +803,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61507934">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.882353">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding>
+            <marker date="1460820745000" expanded="true" signature="2403:2416" placeholder="SELECT * FRO... " />
+            <marker date="1460820745000" expanded="true" signature="2403:2417" placeholder="SELECT * FRO... ${self::$db_table}" />
+            <marker date="1460820745000" expanded="true" signature="2403:2446" placeholder="SELECT * FRO... users" />
+            <marker date="1460820745000" expanded="true" signature="3751:3769" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/comments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.75">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="44" />
           <folding>
             <marker date="1460819811000" expanded="true" signature="265:302" placeholder="SELECT * FRO... photos" />
             <marker date="1460819811000" expanded="true" signature="567:607" placeholder="SELECT * FRO... comments" />
@@ -819,16 +835,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/side_nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23868313">
-          <caret line="132" column="12" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="12" />
-          <folding>
-            <marker date="1460820435000" expanded="true" signature="2403:2416" placeholder="SELECT * FRO... " />
-            <marker date="1460820435000" expanded="true" signature="2403:2417" placeholder="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1460820435000" expanded="true" signature="2403:2446" placeholder="SELECT * FRO... users" />
-            <marker date="1460820435000" expanded="true" signature="3751:3769" placeholder="DELETE FROM " />
-          </folding>
+        <state vertical-scroll-proportion="0.3968254">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

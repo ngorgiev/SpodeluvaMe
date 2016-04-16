@@ -130,7 +130,7 @@ class User extends Db_object
             $sql .= "WHERE user_id=" . $database->escape_string($this->id);
 
             $database->query($sql);
-            
+
             $this->rrmdir(SITE_ROOT . DS . 'admin' . DS . $this->upload_directory . DS . $this->id);
             return true;
         }
