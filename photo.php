@@ -189,7 +189,7 @@ $comments = Comment::find_comments_by_photo_id($photo->id);
     function cwRating(id,type,target){
         $.ajax({
             type:'POST',
-            url:'admin/includes/ajax_code.php',
+            url:'admin/includes/like_dislike_ajax_code.php',
             data:'id='+id+'&type='+type,
             success:function(msg){
                 if(msg == 'err'){
