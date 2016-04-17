@@ -2,7 +2,7 @@
 class Photo extends Db_object
 {
     protected static $db_table = "photos";
-    protected static $db_table_fields = array('id', 'user_id' , 'title', 'caption', 'description', 'filename', 'alternate_text', 'type', 'size', 'photo_status','upload_date');
+    protected static $db_table_fields = array('id', 'user_id' , 'title', 'caption', 'description', 'filename', 'alternate_text', 'type', 'size', 'photo_status', 'likes', 'dislikes', 'upload_date');
 
     public $id;
     public $user_id;
@@ -14,6 +14,8 @@ class Photo extends Db_object
     public $type;
     public $size;
     public $photo_status;
+    public $likes;
+    public $dislikes;
     public $upload_date;
 
     public $tmp_path;
@@ -112,6 +114,24 @@ class Photo extends Db_object
         {
             return false;
         }
+    }
+
+    public function like($photo_id)
+    {
+        global $database;
+        $likes = $this->likes + 1;
+        $sql  = "UPDATE " . self::$db_table . " SET likes = '{$likes}' ";
+        $sql .= " WHERE id = {$photo_id} ";
+        $database->query($sql);
+    }
+
+    public function dislike($photo_id)
+    {
+        global $database;
+        $dislikes = $this->dislikes + 1;
+        $sql  = "UPDATE " . self::$db_table . " SET dislikes = '{$dislikes}' ";
+        $sql .= " WHERE id = {$photo_id} ";
+        $database->query($sql);
     }
 
     public static function display_sidebar_data($photo_id)

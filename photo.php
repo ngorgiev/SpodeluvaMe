@@ -68,6 +68,22 @@ $comments = Comment::find_comments_by_photo_id($photo->id);
                 <p><?php echo $photo->description; ?></p>
                 <hr>
 
+                <!-- Like Dislike -->
+                <div class="ratings">
+                    <p class="pull-right"></p>
+                    <p>
+                        <!-- Like Icon HTML -->
+                        <span class="glyphicon glyphicon-thumbs-up" onClick="cwRating(<?php echo $photo->id;?>,1,'like_count<?php echo $photo->id; ?>')"></span>&nbsp;
+                        <!-- Like Counter -->
+                        <span class="counter" id="like_count<?php echo $photo->id; ?>"><?php echo $photo->likes; ?></span>&nbsp;&nbsp;&nbsp;
+
+                        <!-- Dislike Icon HTML -->
+                        <span class="glyphicon glyphicon-thumbs-down" onClick="cwRating(<?php echo $photo->id; ?>,0,'dislike_count<?php echo $photo->id; ?>')"></span>&nbsp;
+                        <!-- Dislike Counter -->
+                        <span class="counter" id="dislike_count<?php echo $photo->id; ?>"><?php echo $photo->dislikes; ?></span>
+                    </p>
+                </div>
+
                 <!-- Blog Comments -->
 
                 <!-- Comments Form -->
@@ -89,8 +105,6 @@ $comments = Comment::find_comments_by_photo_id($photo->id);
 
                 <!-- Posted Comments -->
                 <?php foreach ($comments as $comment): ?>
-
-
                     <!-- Comment -->
                     <div class="media">
                         <a class="pull-left" href="#">
@@ -118,3 +132,39 @@ $comments = Comment::find_comments_by_photo_id($photo->id);
 
 <?php include("includes/footer.php"); ?>
 </div>
+
+
+
+
+<script type="text/javascript">
+    /**
+     * Function Name: cwRating()
+     * Function Author: CodexWorld
+     * Description: cwRating() function is used for implement the rating system. cwRating() function insert like or dislike data into the database and display the rating count at the target div.
+     * id = Unique ID, like or dislike is based on this ID.
+     * type = Use 1 for like and 0 for dislike.
+     * target = Target div ID where the total number of likes or dislikes will display.
+     **/
+    function cwRating(id,type,target){
+        $.ajax({
+            type:'POST',
+            url:'admin/includes/ajax_code.php',
+            data:'id='+id+'&type='+type,
+            success:function(msg){
+                if(msg == 'err'){
+                    alert('Some problem occured, please try again.');
+                }else{
+                    $('#'+target).html(msg);
+                }
+            }
+        });
+    }
+</script>
+
+
+
+
+
+
+
+
