@@ -2,7 +2,105 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c003fc2-bb64-45a8-9cb4-5aef4a999023" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/_large_image_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/_large_image_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/_large_image_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/_large_image_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/image-1 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/image-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-1 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-10 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-11 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-12 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-13 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-14 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-15 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-16 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-17 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-18 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-19 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-2 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-20 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-21 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-22 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-23 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-24 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-25 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-26 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-27 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-28 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-29 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-3 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-30 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-31 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-32 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-33 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-34 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-35 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-36 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-37 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-38 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-39 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-4 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-40 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-41 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-42 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-43 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-44 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-44.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-5 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-50 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-6 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-7 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-8 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-9 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images-9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/car_pictures/images_2.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/edit_user.php" afterPath="$PROJECT_DIR$/admin/edit_user.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/ajax_code.php" afterPath="$PROJECT_DIR$/admin/includes/ajax_code.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/photo.php" afterPath="$PROJECT_DIR$/admin/includes/photo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
@@ -38,31 +136,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax_code.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajax_code.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/ajax_code.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8333333">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/session.php">
+      <file leaf-file-name="photo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/photo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-36.25">
-              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-              <folding />
+            <state vertical-scroll-proportion="0.55306125">
+              <caret line="143" column="64" selection-start-line="143" selection-start-column="64" selection-end-line="143" selection-end-column="64" />
+              <folding>
+                <marker date="1460906447000" expanded="true" signature="4233:4356" placeholder="..." />
+                <marker date="1460906447000" expanded="true" signature="4707:6132" placeholder="..." />
+                <marker date="1460906447000" expanded="true" signature="4762:5764" placeholder="..." />
+                <marker date="1460906447000" expanded="true" signature="4926:4963" placeholder="SELECT * FRO... users" />
+                <marker date="1460906447000" expanded="true" signature="4926:4980" placeholder="SELECT * FRO... users" />
+                <marker date="1460906447000" expanded="true" signature="5813:6105" placeholder="..." />
+                <marker date="1460906447000" expanded="true" signature="5868:6016" placeholder="..." />
+                <marker date="1460906447000" expanded="true" signature="6284:6338" placeholder="..." />
+                <marker date="1460906447000" expanded="true" signature="6444:6915" placeholder="/** Function Name: cwRating() ...*/" />
+                <marker date="1460906447000" expanded="true" signature="6953:6989" placeholder="{...}" />
+                <marker date="1460906447000" expanded="true" signature="6970:6989" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/photo.php">
+      <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="13.5">
-              <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -71,8 +181,8 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.125">
-              <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="47" />
+            <state vertical-scroll-proportion="-4.375">
+              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="48" />
               <folding>
                 <marker date="1460820745000" expanded="true" signature="2403:2416" placeholder="SELECT * FRO... " />
                 <marker date="1460820745000" expanded="true" signature="2403:2417" placeholder="SELECT * FRO... ${self::$db_table}" />
@@ -123,7 +233,6 @@
         <option value="$PROJECT_DIR$/admin/edit_photo.php" />
         <option value="$PROJECT_DIR$/admin/login.php" />
         <option value="$PROJECT_DIR$/admin/register.php" />
-        <option value="$PROJECT_DIR$/admin/edit_user.php" />
         <option value="$PROJECT_DIR$/admin/photos.php" />
         <option value="$PROJECT_DIR$/admin/includes/comment.php" />
         <option value="$PROJECT_DIR$/admin/comments.php" />
@@ -135,9 +244,10 @@
         <option value="$PROJECT_DIR$/store_rating.php" />
         <option value="$PROJECT_DIR$/rating.php" />
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/photo.php" />
         <option value="$PROJECT_DIR$/admin/includes/photo.php" />
+        <option value="$PROJECT_DIR$/admin/edit_user.php" />
         <option value="$PROJECT_DIR$/admin/includes/ajax_code.php" />
+        <option value="$PROJECT_DIR$/photo.php" />
       </list>
     </option>
   </component>
@@ -300,6 +410,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -310,7 +421,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5173267" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -335,6 +445,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -350,6 +461,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -389,6 +501,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -404,6 +517,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.375">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -411,6 +525,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03968254">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -460,6 +575,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="224.125">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -467,13 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21825397">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67460316">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -490,6 +599,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8214286">
           <caret line="93" column="17" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -563,22 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/edit_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/photos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.625">
@@ -621,6 +715,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.0">
           <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -668,35 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.25">
           <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.125">
-          <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="47" />
-          <folding>
-            <marker date="1460820745000" expanded="true" signature="2403:2416" placeholder="SELECT * FRO... " />
-            <marker date="1460820745000" expanded="true" signature="2403:2417" placeholder="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1460820745000" expanded="true" signature="2403:2446" placeholder="SELECT * FRO... users" />
-            <marker date="1460820745000" expanded="true" signature="3751:3769" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.25">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.031746">
-          <caret line="56" column="85" selection-start-line="56" selection-start-column="85" selection-end-line="56" selection-end-column="85" />
           <folding />
         </state>
       </provider>
@@ -758,19 +824,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/photo.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.5">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/edit_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06122449">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/ajax_code.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8333333">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9285714">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.357143">
+          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="48" />
+          <folding>
+            <marker date="1460820745000" expanded="true" signature="2403:2416" placeholder="SELECT * FRO... " />
+            <marker date="1460820745000" expanded="true" signature="2403:2417" placeholder="SELECT * FRO... ${self::$db_table}" />
+            <marker date="1460820745000" expanded="true" signature="2403:2446" placeholder="SELECT * FRO... users" />
+            <marker date="1460820745000" expanded="true" signature="3751:3769" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55306125">
+          <caret line="143" column="64" selection-start-line="143" selection-start-column="64" selection-end-line="143" selection-end-column="64" />
+          <folding>
+            <marker date="1460906447000" expanded="true" signature="4233:4356" placeholder="..." />
+            <marker date="1460906447000" expanded="true" signature="4707:6132" placeholder="..." />
+            <marker date="1460906447000" expanded="true" signature="4762:5764" placeholder="..." />
+            <marker date="1460906447000" expanded="true" signature="4926:4963" placeholder="SELECT * FRO... users" />
+            <marker date="1460906447000" expanded="true" signature="4926:4980" placeholder="SELECT * FRO... users" />
+            <marker date="1460906447000" expanded="true" signature="5813:6105" placeholder="..." />
+            <marker date="1460906447000" expanded="true" signature="5868:6016" placeholder="..." />
+            <marker date="1460906447000" expanded="true" signature="6284:6338" placeholder="..." />
+            <marker date="1460906447000" expanded="true" signature="6444:6915" placeholder="/** Function Name: cwRating() ...*/" />
+            <marker date="1460906447000" expanded="true" signature="6953:6989" placeholder="{...}" />
+            <marker date="1460906447000" expanded="true" signature="6970:6989" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

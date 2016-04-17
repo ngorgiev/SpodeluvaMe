@@ -19,10 +19,10 @@ if($_GET['id'] != $_SESSION['user_id'])
     if(!strpos(User::check_user_role(),'admin'))
         redirect("index.php");
 }
-else
-{
-    redirect("index.php");
-}
+//else
+//{
+//    redirect("index.php");
+//}
 
 $user = User::find_by_id($_GET['id']);
 

@@ -25,8 +25,12 @@ if($_POST['id'])
     {
         if(!isset($_SESSION['voted_photo'][$_POST['id']]))
         {
-            $photo->like($photo->id);
-            $_SESSION['voted_photo'][$_POST['id']] = true;
+            if($session->is_signed_in())
+            {
+                $photo->like($photo->id);
+                $_SESSION['voted_photo'][$_POST['id']] = true;
+            }
+
         }
 
         echo  $photo->likes;
@@ -35,8 +39,11 @@ if($_POST['id'])
     {
         if(!isset($_SESSION['voted_photo'][$_POST['id']]))
         {
-            $photo->dislike($photo->id);
-            $_SESSION['voted_photo'][$_POST['id']] = true;
+            if($session->is_signed_in())
+            {
+                $photo->dislike($photo->id);
+                $_SESSION['voted_photo'][$_POST['id']] = true;
+            }
         }
 
         echo  $photo->dislikes;

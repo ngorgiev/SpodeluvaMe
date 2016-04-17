@@ -9,9 +9,22 @@ if(empty($_GET['id']))
 
 $photo = Photo::find_by_id($_GET['id']);
 
+if($session->is_signed_in())
+{
+    $user = User::find_by_id($_SESSION['user_id']);
+}
+
 if(isset($_POST['submit']))
 {
-    $author = trim($_POST['author']);
+    if(!$session->is_signed_in())
+    {
+        $author = trim($_POST['author']);
+    }
+    else
+    {
+        $author = $user->username;
+    }
+
     $body = trim($_POST['body']);
 
     $new_comment =Comment::create_comment($photo->id, $author, $body);
@@ -91,8 +104,21 @@ $comments = Comment::find_comments_by_photo_id($photo->id);
                     <h4>Остави Коментар:</h4>
                     <form role="form" method="post">
                         <div class="form-group">
-                            <label for="author">Автор</label>
-                            <input type="text" name="author" class="form-control">
+                            <?php
+                            if(!empty($user))
+                            {
+                                echo "<div class='panel panel-default'>";
+                                echo "<div class='panel-heading'>Автор:</div>";
+                                echo "<div class='panel-body'>$user->username</div></div>";
+                            }
+                            else
+                            {
+                                echo "<label for='author'>Автор</label>";
+                                echo "<input class='form-control' name='author' id='disabledInput' type='text' value=''>";
+                            }
+                            ?>
+<!--                            <label for="author">Автор</label>-->
+<!--                            <input type="text" name="author" class="form-control">-->
                         </div>
                         <div class="form-group">
                             <textarea name="body" class="form-control" rows="3"></textarea>
@@ -108,11 +134,26 @@ $comments = Comment::find_comments_by_photo_id($photo->id);
                     <!-- Comment -->
                     <div class="media">
                         <a class="pull-left" href="#">
-                            <img class="media-object" src="http://placehold.it/64x64" alt="">
+                            <?php
+                            $authorUsername = $comment->author;
+                            $commentuser = User::find_by_query("SELECT * FROM users WHERE username = '$authorUsername'");
+                            if(count($commentuser) > 0)
+                            {
+                                //echo "<h1>$user->image_path_and_placeholder</h1>";
+                                $author_image = "admin" . DS . $commentuser[0]->image_path_and_placeholder();
+                                echo "<img width='64' height='64' class='media-object' src='$author_image'>";
+                            }
+                            else
+                            {
+                                echo "<img class='media-object' src='http://placehold.it/64x64' alt=''>";
+                            }
+
+                            ?>
+<!--                            <img class="media-object" src="http://placehold.it/64x64" alt="">-->
                         </a>
                         <div class="media-body">
                             <h4 class="media-heading"><?php echo $comment->author; ?>
-                                <small>August 25, 2030 at 9:30 PM</small>
+                                <small><?php echo $comment->date_time; ?>M</small>
                             </h4>
                             <?php echo $comment->body; ?>
                         </div>
