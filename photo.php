@@ -54,7 +54,7 @@ $comments = Comment::find_comments_by_photo_id($photo->id);
                 <hr>
 
                 <!-- Date/Time -->
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
+                <p><span class="glyphicon glyphicon-time"></span> <?php echo $photo->upload_date; ?></p>
 
                 <hr>
 

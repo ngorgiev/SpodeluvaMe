@@ -77,9 +77,6 @@ class Photo extends Db_object
                 $target_path = SITE_ROOT . DS . 'admin' . DS . $this->upload_directory . DS . $this->user_id . DS . $this->filename;
             }
 
-
-
-
             //if file exists
             if(file_exists($target_path))
             {

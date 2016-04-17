@@ -23,14 +23,23 @@ if($_POST['id'])
     //calculates the numbers of like or dislike
     if($_POST['type'] == 1)
     {
-        $photo->like($photo->id);
+        if(!isset($_SESSION['voted_photo'][$_POST['id']]))
+        {
+            $photo->like($photo->id);
+            $_SESSION['voted_photo'][$_POST['id']] = true;
+        }
+
         echo  $photo->likes;
     }
     else
     {
-        $photo->dislike($photo->id);
+        if(!isset($_SESSION['voted_photo'][$_POST['id']]))
+        {
+            $photo->dislike($photo->id);
+            $_SESSION['voted_photo'][$_POST['id']] = true;
+        }
+
         echo  $photo->dislikes;
     }
-
 }
 ?>
